@@ -1,0 +1,25 @@
+.followersWrapper {
+    margin: 10px
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.followerList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.followerListItem {
+    display: flex;
+    width: 50%;
+}
+
+.name {
+    align-self: center;
+    margin-left: 20px;
+}

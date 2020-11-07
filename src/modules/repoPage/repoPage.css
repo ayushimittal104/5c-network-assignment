@@ -1,0 +1,51 @@
+.repoMainWrapper {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.leftSideWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.RightSideWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.tick::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -24px;
+    background-color: #28af28;
+    border-radius: 50%;
+}
+
+.tick {
+    margin-left: 30px;
+    position: relative;
+}
+
+.tick::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    left: -16px;
+    margin-top: 4px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.language {
+    border: 1px solid lightblue;
+    background-color: rgb(248 250 251);
+    text-align: center;
+    border-radius: 5px;
+}
